@@ -1,0 +1,66 @@
+
+.container {
+  background-color: #f0f0edc3;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.save {
+  align-self: flex-end;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.save text {
+  color: rgb(144, 68, 215);
+}
+.toux {
+  height: 250rpx;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.toux .toux_box {
+  height: 250rpx;
+  width: 250rpx;
+  margin: 0 auto;
+  border-radius: 40rpx;
+  background-color: #fff;
+}
+.toux ._img {
+  height: 250rpx;
+  width: 250rpx;
+  border-radius: 40rpx;
+}
+.username {
+  text-align: center;
+  margin-top: 0.6rem;
+}
+.userprofile {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: #f2eeee; */
+  width: 94vw;
+  height: 3rem;
+  border-radius: 10px;
+  align-items: center;
+}
+.tx {
+  margin-left: 0.3rem;
+  width: 4rem;
+  text-align: center;
+  color: rgb(136, 136, 136);
+}
+.content {
+  background-color: rgb(255, 255, 255);
+  margin-left: 0.5rem;
+  height: 2.5rem;
+  width: 70%;
+  border-radius: 5px;
+}
+.input_va {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding-left: 0.5rem;
+}
+

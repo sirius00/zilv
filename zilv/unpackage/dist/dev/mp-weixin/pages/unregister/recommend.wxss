@@ -1,0 +1,37 @@
+
+.bar.data-v-2b8a13bc {
+	width: 10rem;
+}
+
+/* 背景板 */
+.bgboard.data-v-2b8a13bc {
+	height: 80vh;
+}
+
+/* 周日期 */
+.week.data-v-2b8a13bc {
+	height: 2rem;
+	line-height: 2rem;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	color: rgb(185, 186, 187);
+}
+.home_voice_bar.data-v-2b8a13bc {
+	margin-top: 0.4rem;
+	height: 70%;
+}
+.scroll_view.data-v-2b8a13bc {
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	/* align-items: center; */
+}
+.text.data-v-2b8a13bc {
+	font-size: 3.5rem;
+	font-weight: bolder;
+	color: rgb(182, 188, 188);
+	text-align: center;
+}
+

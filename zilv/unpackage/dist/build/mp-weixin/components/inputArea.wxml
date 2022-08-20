@@ -1,0 +1,1 @@
+<view class="input"><slot></slot></view>

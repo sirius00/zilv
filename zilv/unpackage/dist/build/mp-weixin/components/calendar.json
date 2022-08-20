@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "line-area": "/components/todo_line/linesArea"
+  }
+}

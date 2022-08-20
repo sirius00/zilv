@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "欢迎",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "welcome-logo": "/components/welcome_logo",
+    "button-one": "/components/buttons/button_one"
+  }
+}

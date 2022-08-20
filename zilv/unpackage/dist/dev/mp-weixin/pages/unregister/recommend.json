@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "推荐",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "top-tabbar": "/components/topTabbar/topTabbar",
+    "calendar": "/components/calendar",
+    "voice-bar": "/components/voiceBar"
+  }
+}

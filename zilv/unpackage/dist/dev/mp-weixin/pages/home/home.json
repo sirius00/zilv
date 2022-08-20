@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "recommend": "/pages/unregister/recommend",
+    "time-card": "/pages/unregister/timecard",
+    "mid-box": "/components/midBox/midBox"
+  }
+}

@@ -1,0 +1,37 @@
+
+.background.data-v-30903792 {
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* 其他登录方式 */
+.other-login.data-v-30903792 {
+	/* text-align: center; */
+	font-size: 12px;
+	align-self: flex-end;
+	margin-right: 1.5rem;
+}
+.phone_number.data-v-30903792 {
+	flex-basis: 14rem;
+}
+.phone_input.data-v-30903792 {
+	height: 3rem;
+	line-height: 3rem;
+}
+
+/* 输入验证码 */
+.input_code_sp.data-v-30903792 {
+	flex-basis: 15rem;
+}
+.code_ip_ip.data-v-30903792 {
+	height: 3rem;
+	line-height: 3rem;
+	padding-left: 2rem;
+}
+
+/* 获取验证码 */
+
+

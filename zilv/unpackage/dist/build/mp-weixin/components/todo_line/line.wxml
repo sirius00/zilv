@@ -1,0 +1,1 @@
+<view class="{{[task_down==0?'line1':'line2']}}"></view>

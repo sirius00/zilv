@@ -1,0 +1,24 @@
+
+.topbar.data-v-6407a6ac {
+	height: 90rpx;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+.tab_item.data-v-6407a6ac {
+	line-height: 90rpx;
+	width: 100%;
+	white-space: nowrap;
+	/* border-bottom: 1.5px solid #eee; */
+	text-align: center;
+}
+.tab_item_title.data-v-6407a6ac {
+	color: #676a6c;
+}
+.tabActive.data-v-6407a6ac {
+	color: #1abdaa;
+	border-bottom: 2px solid #1abdaa;
+	font-size: 35rpx;
+	padding: 5rpx;
+}
+

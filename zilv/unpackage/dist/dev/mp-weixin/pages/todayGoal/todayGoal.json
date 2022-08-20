@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "今日目标",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mid-box": "/components/midBox/midBox"
+  }
+}

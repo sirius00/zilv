@@ -1,0 +1,13 @@
+
+.line1 {
+	height: 5rpx;
+	/* width: 80rpx; */
+	background-color: rgb(19, 221, 214);
+}
+.line2 {
+	height: 5rpx;
+	/* width: 80rpx; */
+	background-color: rgb(145, 147, 147);
+}
+
+

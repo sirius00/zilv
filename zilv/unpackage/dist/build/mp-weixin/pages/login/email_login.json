@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "邮箱登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "welcome-logo": "/components/welcome_logo",
+    "input-area": "/components/inputArea",
+    "agruement": "/components/agruement",
+    "button-two": "/components/buttons/buttonTwo"
+  }
+}

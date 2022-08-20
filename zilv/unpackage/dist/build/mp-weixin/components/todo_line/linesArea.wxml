@@ -1,0 +1,1 @@
+<view class="lines"><block wx:for="{{taskList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block wx:if="{{index<6}}"><line vue-id="{{'599d7032-1-'+index}}" task_down="{{item.doittime}}" bind:__l="__l"></line></block></block></view>

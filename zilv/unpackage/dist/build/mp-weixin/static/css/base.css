@@ -1,0 +1,106 @@
+/* 快捷定位 */
+.center {
+	text-align: center;
+}
+
+/*  音阶部分 */
+.bbox {
+	/* background-color: aquamarine; */
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* flex-flow: row nowrap; */
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.yinjie {
+	width: 5rpx;
+	height: 60rpx;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+@keyframes yy {
+	0% {
+		transform: scale(1, 1);
+		background-color: rgb(255, 255, 255);
+	}
+
+	100% {
+		transform: scale(1, 0.2);
+		background-color: rgb(255, 255, 255);
+	}
+}
+
+.one {
+	animation: yy 0.5s 2s linear infinite alternate;
+}
+
+.two {
+	animation: yy 0.5s 1.8s linear infinite alternate;
+}
+
+.three {
+	animation: yy 0.5s 1.6s linear infinite alternate;
+}
+
+.four {
+	animation: yy 0.5s 1.4s linear infinite alternate;
+}
+
+.five {
+	animation: yy 0.5s 1.2s linear infinite alternate;
+}
+
+.six {
+	animation: yy 0.5s 1s linear infinite alternate;
+}
+
+.seven {
+	animation: yy 0.5 0.8s linear infinite alternate;
+}
+
+.eight {
+	animation: yy 0.5s 0.6s linear infinite alternate;
+}
+
+.nine {
+	animation: yy 0.5s 0.4s linear infinite alternate;
+}
+
+.ten {
+	animation: yy 0.5s 0.2s linear infinite alternate;
+}
+
+
+/* 解决小程序和app滚动条的问题 */
+/* #ifdef MP-WEIXIN || APP-PLUS */
+::-webkit-scrollbar {
+	display: none;
+	width: 0 !important;
+	height: 0 !important;
+	-webkit-appearance: none;
+	background: transparent;
+	color: transparent;
+}
+
+/* #endif */
+
+/* 解决H5 的问题 */
+/* #ifdef H5 */
+uni-scroll-view .uni-scroll-view::-webkit-scrollbar {
+	/* 隐藏滚动条，但依旧具备可以滚动的功能 */
+	display: none;
+	width: 0 !important;
+	height: 0 !important;
+	-webkit-appearance: none;
+	background: transparent;
+	color: transparent;
+}
+
+/* #endif */
+
+
+
+/*  */

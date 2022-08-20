@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "手机号直接登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "welcome-logo": "/components/welcome_logo",
+    "button-one": "/components/buttons/button_one",
+    "agruement": "/components/agruement"
+  }
+}

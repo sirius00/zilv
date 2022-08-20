@@ -1,0 +1,1 @@
+<view class="board"><view data-event-opts="{{[['tap',[['cancel']]]]}}" class="cancel" bindtap="__e">注销账号</view><view data-event-opts="{{[['tap',[['out']]]]}}" class="logout" bindtap="__e">退出登录</view></view>

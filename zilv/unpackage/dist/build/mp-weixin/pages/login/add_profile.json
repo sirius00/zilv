@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加个人信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "input-area": "/components/inputArea"
+  }
+}

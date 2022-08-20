@@ -1,0 +1,315 @@
+
+.bar.data-v-2b8a13bc {
+	width: 10rem;
+}
+
+/* 背景板 */
+.bgboard.data-v-2b8a13bc {
+	height: 80vh;
+}
+
+/* 周日期 */
+.week.data-v-2b8a13bc {
+	height: 2rem;
+	line-height: 2rem;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	color: rgb(185, 186, 187);
+}
+.home_voice_bar.data-v-2b8a13bc {
+	margin-top: 0.4rem;
+	height: 70%;
+}
+.scroll_view.data-v-2b8a13bc {
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	/* align-items: center; */
+}
+.text.data-v-2b8a13bc {
+	font-size: 3.5rem;
+	font-weight: bolder;
+	color: rgb(182, 188, 188);
+	text-align: center;
+}
+
+
+.board.data-v-00fd18e7 {
+	height: 80vh;
+}
+
+/* 周日期 */
+.week.data-v-00fd18e7 {
+	height: 2rem;
+	line-height: 2rem;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	color: rgb(185, 186, 187);
+}
+.todo_board.data-v-00fd18e7 {
+	margin-top: 0.4rem;
+	height: 70%;
+}
+.scroll_view.data-v-00fd18e7 {
+	height: 100%;
+	/* display: flex; */
+	/* flex-flow: column nowrap;
+	align-items: center; */
+}
+.add_note.data-v-00fd18e7 {
+	height: 3rem;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+}
+
+/* 添加声音 */
+.zhezhao.data-v-00fd18e7 {
+	/* background-color: chartreuse; */
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.add_voice.data-v-00fd18e7 {
+	width: 500rpx;
+	height: 550rpx;
+	background-color: #fff;
+	position: relative;
+	/* z-index: 10; */
+	/* top: 350rpx; */
+	top: 30vh;
+	left: 125rpx;
+	border-radius: 15px;
+	box-shadow: 0 0 1px 1px rgb(136, 136, 136, 0.2);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.addtext.data-v-00fd18e7 {
+	/* background-color: aquamarine; */
+	padding: 20rpx;
+	height: 200rpx;
+	width: 400rpx;
+}
+.mind_area.data-v-00fd18e7 {
+	height: 50rpx;
+	width: 280rpx;
+}
+
+/* 提示信息 */
+.mind.data-v-00fd18e7 {
+	height: 50rpx;
+	width: 280rpx;
+	background-color: #46c4ba;
+	border-radius: 15px;
+}
+.voice.data-v-00fd18e7 {
+	margin-top: 0rpx;
+}
+.voice ._img.data-v-00fd18e7 {
+	height: 100rpx;
+	width: 110rpx;
+}
+.change_img.data-v-00fd18e7 {
+	height: 100rpx;
+	width: 100rpx;
+}
+.limit.data-v-00fd18e7 {
+	align-self: flex-start;
+	margin-left: 50rpx;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+.limit ._img.data-v-00fd18e7 {
+	height: 40rpx;
+	width: 40rpx;
+	margin-right: 10rpx;
+	margin-top: 4rpx;
+}
+.add_button.data-v-00fd18e7 {
+	width: 200rpx;
+	height: 80rpx;
+	background-color: #46c4ba;
+	color: #fff;
+	line-height: 80rpx;
+	border-radius: 13px;
+	text-align: center;
+}
+
+/*  音阶部分 */
+.bbox.data-v-00fd18e7 {
+	/* background-color: aquamarine; */
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* flex-flow: row nowrap; */
+	align-items: center;
+	justify-content: space-evenly;
+}
+.yinjie.data-v-00fd18e7 {
+	width: 5rpx;
+	height: 60rpx;
+	background-color: #fff;
+	border-radius: 10px;
+}
+@-webkit-keyframes yy-data-v-00fd18e7 {
+0% {
+		-webkit-transform: scale(1, 1);
+		        transform: scale(1, 1);
+		background-color: rgb(255, 255, 255);
+}
+100% {
+		-webkit-transform: scale(1, 0.2);
+		        transform: scale(1, 0.2);
+		background-color: rgb(255, 255, 255);
+}
+}
+@keyframes yy-data-v-00fd18e7 {
+0% {
+		-webkit-transform: scale(1, 1);
+		        transform: scale(1, 1);
+		background-color: rgb(255, 255, 255);
+}
+100% {
+		-webkit-transform: scale(1, 0.2);
+		        transform: scale(1, 0.2);
+		background-color: rgb(255, 255, 255);
+}
+}
+.one.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 2s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 2s linear infinite alternate;
+}
+.two.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 1.8s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 1.8s linear infinite alternate;
+}
+.three.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 1.6s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 1.6s linear infinite alternate;
+}
+.four.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 1.4s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 1.4s linear infinite alternate;
+}
+.five.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 1.2s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 1.2s linear infinite alternate;
+}
+.six.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 1s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 1s linear infinite alternate;
+}
+.seven.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5 0.8s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5 0.8s linear infinite alternate;
+}
+.eight.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 0.6s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 0.6s linear infinite alternate;
+}
+.nine.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 0.4s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 0.4s linear infinite alternate;
+}
+.ten.data-v-00fd18e7 {
+	-webkit-animation: yy-data-v-00fd18e7 0.5s 0.2s linear infinite alternate;
+	        animation: yy-data-v-00fd18e7 0.5s 0.2s linear infinite alternate;
+}
+
+view {
+  padding: 0;
+  box-sizing: border-box;
+}
+.tabbar-container {
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  height: 110rpx;
+  box-shadow: 0 0 5px #999;
+  display: flex;
+  align-items: center;
+  padding: 5rpx 0;
+  color: #999999;
+  background-color: #fff;
+  /* 针对tabbar的统一处理 */
+}
+.tabbar-container .tabbar-item {
+  width: 33.33%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tabbar-container .tabbar-item .item-top {
+  width: 70rpx;
+  height: 70rpx;
+  padding: 10rpx;
+}
+.tabbar-container .tabbar-item .item-top image {
+  width: 100%;
+  height: 100%;
+}
+.tabbar-container .tabbar-item .item-bottom {
+  font-size: 28rpx;
+  width: 100%;
+}
+.tabbar-container .tabbar-item .item-active {
+  color: #f00;
+}
+.tabbar-container .center-item {
+  display: block;
+  position: relative;
+}
+.tabbar-container .center-item .item-top {
+  flex-shrink: 0;
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  top: -65rpx;
+  left: calc(50% - 70rpx);
+}
+.tabbar-container .center-item .item-bottom {
+  position: absolute;
+  bottom: 5rpx;
+}
+.tabbar-container .center-item .item-active {
+  position: absolute;
+  bottom: 5rpx;
+  color: #1fff;
+}
+
+
+.container.data-v-92bb8f34 {
+	background-color: #fff;
+	height: 100vh;
+}
+
+/* 背景板 */
+.board.data-v-92bb8f34 {
+	background-color: #fff;
+	height: 89vh;
+	width: 96vw;
+	border: 6px solid rgb(10, 198, 185);
+	border-radius: 35px;
+	margin: 0 auto;
+}
+.board_border.data-v-92bb8f34 {
+	height: 78vh;
+	width: 85vw;
+	border-radius: 35px;
+	margin: 0.1rem auto;
+}
+

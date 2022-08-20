@@ -1,0 +1,12 @@
+
+.lines {
+	height: 55rpx;
+	width: 80rpx;
+	position: absolute;
+	top: 16rpx;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	z-index: -5;
+}
+

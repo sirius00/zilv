@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/unregister/recommend",
+    "pages/login/phone_direct",
+    "pages/login/phone_login",
+    "pages/login/add_profile",
+    "pages/login/email_login",
+    "pages/login/add_toux",
+    "pages/unregister/timecard",
+    "pages/unregister/test",
+    "pages/profile/profile",
+    "pages/todayGoal/todayGoal",
+    "components/midBox/midBox",
+    "pages/profile/setting/setting",
+    "pages/agreemnt_content/agreemnt_content",
+    "pages/profile/userprofile/userprofile",
+    "pages/login/weixin_login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#0b0b0b"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/todayGoal/todayGoal",
+        "iconPath": "static/img/message_active.png",
+        "selectedIconPath": "./static/img/message_active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/dubbing.png",
+        "selectedIconPath": "./static/img/dubbing.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/img/profile.png",
+        "selectedIconPath": "./static/img/profile_active.png"
+      }
+    ]
+  },
+  "unipush": {
+    "enable": false
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
