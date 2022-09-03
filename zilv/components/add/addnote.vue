@@ -49,7 +49,6 @@ import {
 		},
 		computed: {
 			...mapState(['userinfo', 'ifnote']),
-
 		},
 		methods: {
 			...mapMutations(['addNote']),
@@ -60,19 +59,17 @@ import {
 			hidenote() {
 				this.$store.commit("addNote")
 			},
-
 			add_task () {
 				uni.$http.post(
 					base2 + '/task/add/text', 
 					{ uid: this.userinfo.memberId, content: this.text_value}
 					).then( (res) => {
 					this.$emit('addtask')
-					this.addNote()
+					this.hidenote()
+					this.text_value = ''
 				}).catch( (err) => {
 					console.log(err);
-					
 				})
-
 			}
 		}
 	}

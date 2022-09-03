@@ -28,13 +28,29 @@ export default {
 	computed: {
 		...mapState(['userinfo'])
 	},
+	onLoad() {
+		let get = false
+		uni.getStorage({
+			key: 'userinfo',
+			success: (res) => {
+				console.log(res);
+				this.read_storage(res.data)
+				get = true
+				if (get) {
+					uni.switchTab({
+						url: '/pages/home/home'
+					})
+				}
+			},
+			fail: (error) => {
+				// uni.navigateTo({ url: '/pages/login/phone_login' })
+				console.log(error);
+			}
+		})
+	},
 	methods: {
 		...mapMutations(['read_storage']),
 		jump() {
-			// uni.redirectTo({ url: '/pages/login/weixin_login' })
-			// uni.reLaunch({
-			// 	url: '/pages/home/home'
-			// })
 			console.log(this.userinfo);
 			let get = false
 			uni.getStorage({
@@ -50,11 +66,11 @@ export default {
 					}
 				},
 				fail: (error) => {
-					uni.navigateTo({ url: '/pages/login/phone_login' })
+					uni.navigateTo({ url: '/pages/login/weixin_login' })
 					console.log(error);
 				}
 			})
-
+			
 		}
 	}
 }

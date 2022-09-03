@@ -81,6 +81,7 @@ export default {
 		// 刷新日历内容
 		refresh_cal() {
 			uni.$http.post(base2 + '/task/get/self', { uid: this.userinfo.memberId }).then((res) => {
+				console.log(res);
 				let days = res.data.data.day
 				let today = this.format_date()
 				let index = 0

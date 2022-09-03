@@ -9,6 +9,15 @@
 	justify-content: space-between;
 	min-width: 9rem;
 }
+.word_bar.data-v-30e05f84{
+	margin-top: 1.5rem;
+	width: 10rem;
+	height: 90rpx;
+	border-radius: 20px;
+	padding: 19rpx;
+	display: flex;
+	min-width: 9rem;
+}
 .voice_toux image.data-v-30e05f84 {
 	height: 50rpx;
 	width: 50rpx;
@@ -26,11 +35,29 @@
 	width: 35rpx;
 	margin-right: 10rpx;
 }
+.word_toux.data-v-30e05f84 {
+	display: flex;
+	align-items: center;
+}
+.word_toux image.data-v-30e05f84 {
+	height: 50rpx;
+	width: 50rpx;
+}
+.word_content.data-v-30e05f84 {
+	height: 55rpx;
+	line-height: 55rpx;
+	display: flex;
+	align-items: center;
+}
+.word.data-v-30e05f84 {
+	height: 55rpx;
+	line-height: 55rpx;
+	overflow: hidden;
+}
 .play_button ._img.data-v-30e05f84 {
 	height: 55rpx;
 	width: 55rpx;
 }
-
 /*  音阶部分 */
 .bbox.data-v-30e05f84 {
 	/* background-color: aquamarine; */

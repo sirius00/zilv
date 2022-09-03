@@ -29,11 +29,10 @@
       "outputPath": ""
     },
     "disableUseStrict": false,
-    "useCompilerPlugins": false,
-    "minifyWXML": true
+    "useCompilerPlugins": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.25.3",
+  "libVersion": "2.25.4",
   "appid": "wx78bfbd99555fc089",
   "projectname": "zilv",
   "condition": {

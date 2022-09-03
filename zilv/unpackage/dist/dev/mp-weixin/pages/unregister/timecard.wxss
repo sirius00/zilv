@@ -21,7 +21,7 @@
 	height: 100%;
 	/* display: flex; */
 	/* flex-flow: column nowrap;
-	align-items: center; */
+align-items: center; */
 }
 .add_note.data-v-00fd18e7 {
 	height: 3rem;

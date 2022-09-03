@@ -3,7 +3,7 @@
 		<view>
 			<view>
 				<view class="other-login">
-					<navigator url="/pages/login/phone_login">邮箱登录</navigator>
+					<navigator url="/pages/login/email_login">邮箱登录</navigator>
 				</view>
 				<view class='header'>
 					<image src='../../static/img/weixin.png'></image>

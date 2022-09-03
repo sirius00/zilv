@@ -2,7 +2,7 @@
 	<view class="background">
 
 		<view class="other-login">
-			<navigator url="/pages/login/weixin_login">手机号登录</navigator>
+			<navigator url="/pages/login/weixin_login">微信登录</navigator>
 		</view>
 		<view>
 			<h4>邮箱登录</h4>
